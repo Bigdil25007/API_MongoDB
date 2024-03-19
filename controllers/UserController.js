@@ -6,7 +6,10 @@ async function getNbDefis(nb) {
         if (nb > 100) { nb = 100; }
         else if (nb < 1) { nb = 1; }
 
-        return resultat = await defiModel.aggregate([{ $sample: { size: nb } }]);
+        return resultat = await defiModel.aggregate([
+            { $sample: { size: nb } },
+            { $project: { _id: 0 } }
+        ]);
 
     } catch (error) {
         console.error('Erreur lors de la récupération des défis :', error);

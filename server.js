@@ -14,6 +14,11 @@ app.use(userRouter);
 //app.use(adminRouter);
 
 
+//Gestion route non prévue
+app.use((req, res) => {
+    res.status(404).send('Cette route n\'est pas définie');
+});
+
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
