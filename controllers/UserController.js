@@ -1,7 +1,4 @@
-const mongoose = require('mongoose');
-
 const defiModel = require('../models/UserModel');
-const collection = mongoose.connection.collection(process.env.COLLECTION_NAME);
 
 async function getNbDefis(nb) {
     try {

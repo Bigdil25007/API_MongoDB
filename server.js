@@ -1,16 +1,12 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+dotenv.config();
 
 const userRouter = require('./routers/UserRoute');
 //const adminRouter = require('./routers/AdminRoute');
 
-dotenv.config();
-const env = process.env; //raccourci pour ecrire process.env
 const app = express();
-const port = env.LISTENING_PORT;
-
-mongoose.connect(env.DATABASE_URL);
+const port = process.env.LISTENING_PORT;
 
 //Body-parser pour récupérer les POST
 app.use(express.urlencoded({ extended: true }));
