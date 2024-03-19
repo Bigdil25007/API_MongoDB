@@ -1,0 +1,21 @@
+const mongoose = require('mongoose');
+
+const defiModel = require('../models/UserModel');
+const collection = mongoose.connection.collection(process.env.COLLECTION_NAME);
+
+async function getNbDefis(nb) {
+    try {
+        //verif que le paramètre rentre dans les bornes
+        if (nb > 100) { nb = 100; }
+        else if (nb < 1) { nb = 1; }
+
+        return resultat = await defiModel.aggregate([{ $sample: { size: nb } }]);
+
+    } catch (error) {
+        console.error('Erreur lors de la récupération des défis :', error);
+        return error;
+    }
+}
+
+module.exports = { getNbDefis };
+

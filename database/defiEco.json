@@ -1,0 +1,439 @@
+[
+    {
+        "nom": "Réduction de l'empreinte carbone",
+        "description": "Développer un jeu vidéo avec une empreinte carbone minimale en optimisant l'utilisation des ressources informatiques.",
+        "categorie": "Jeux vidéo",
+        "objectif": "Réduire l'impact environnemental des jeux vidéo",
+        "difficulte": "Intermédiaire",
+        "recompense": "Certification écologique",
+        "date_debut": "2023-06-15T00:00:00Z",
+        "date_fin": "2024-06-15T23:59:59Z",
+        "equipe": [
+            "Développeurs",
+            "Game designers"
+        ],
+        "technologies": [
+            "Unity",
+            "Unreal Engine"
+        ],
+        "pays": [
+            "France",
+            "Canada"
+        ],
+        "participants_max": 5,
+        "participants_actuels": 3,
+        "etat": "En cours",
+        "tags": [
+            "Eco-conception",
+            "Informatique durable"
+        ]
+    },
+    {
+        "nom": "Optimisation des performances web",
+        "description": "Optimiser les performances d'un site web pour réduire la consommation d'énergie des serveurs.",
+        "categorie": "Site web",
+        "objectif": "Améliorer l'efficacité énergétique des sites web",
+        "difficulte": "Avancée",
+        "recompense": "Prix en argent",
+        "date_debut": "2023-09-01T00:00:00Z",
+        "date_fin": "2024-09-01T23:59:59Z",
+        "equipe": [
+            "Développeurs web",
+            "Experts en performance"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ],
+        "pays": [
+            "États-Unis",
+            "Royaume-Uni"
+        ],
+        "participants_max": 8,
+        "participants_actuels": 6,
+        "etat": "En cours",
+        "tags": [
+            "Performance web",
+            "Eco-conception"
+        ]
+    },
+    {
+        "nom": "Conception écologique de logiciels",
+        "description": "Développer des pratiques de conception de logiciels qui minimisent leur impact environnemental.",
+        "categorie": "Logiciel",
+        "objectif": "Intégrer des principes écologiques dans la conception de logiciels",
+        "difficulte": "Débutant",
+        "recompense": "Formation spécialisée",
+        "date_debut": "2023-07-10T00:00:00Z",
+        "date_fin": "2024-07-10T23:59:59Z",
+        "equipe": [
+            "Développeurs",
+            "Architectes logiciels"
+        ],
+        "technologies": [
+            "Java",
+            "Python",
+            "C++"
+        ],
+        "pays": [
+            "Allemagne",
+            "Japon"
+        ],
+        "participants_max": 10,
+        "participants_actuels": 7,
+        "etat": "En cours",
+        "tags": [
+            "Conception logicielle",
+            "Ecologie"
+        ]
+    },
+    {
+        "nom": "Réduction de la consommation énergétique des serveurs",
+        "description": "Développer des algorithmes et des pratiques pour réduire la consommation énergétique des serveurs de jeux en ligne.",
+        "categorie": "Serveurs",
+        "objectif": "Minimiser la consommation d'énergie des serveurs de jeux en ligne",
+        "difficulte": "Avancée",
+        "recompense": "Subvention de recherche",
+        "date_debut": "2023-08-05T00:00:00Z",
+        "date_fin": "2024-08-05T23:59:59Z",
+        "equipe": [
+            "Ingénieurs réseau",
+            "Experts en optimisation"
+        ],
+        "technologies": [
+            "Cloud computing",
+            "Virtualisation"
+        ],
+        "pays": [
+            "Chine",
+            "Brésil"
+        ],
+        "participants_max": 6,
+        "participants_actuels": 4,
+        "etat": "En cours",
+        "tags": [
+            "Energie",
+            "Serveurs"
+        ]
+    },
+    {
+        "nom": "Développement de site web éco-responsable",
+        "description": "Créer un site web utilisant des techniques de développement respectueuses de l'environnement, telles que l'optimisation des images et du code.",
+        "categorie": "Site web",
+        "objectif": "Promouvoir la conception écologique dans le développement web",
+        "difficulte": "Intermédiaire",
+        "recompense": "Reconnaissance de l'industrie",
+        "date_debut": "2023-09-20T00:00:00Z",
+        "date_fin": "2024-09-20T23:59:59Z",
+        "equipe": [
+            "Développeurs web",
+            "Designers UX/UI"
+        ],
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "pays": [
+            "États-Unis",
+            "France"
+        ],
+        "participants_max": 4,
+        "participants_actuels": 2,
+        "etat": "En cours",
+        "tags": [
+            "Site web",
+            "Développement durable"
+        ]
+    },
+    {
+        "nom": "Conception de jeux vidéo durables",
+        "description": "Créer un jeu vidéo avec une histoire et des mécaniques de jeu qui sensibilisent aux problèmes environnementaux.",
+        "categorie": "Jeux vidéo",
+        "objectif": "Promouvoir la durabilité à travers les jeux vidéo",
+        "difficulte": "Intermédiaire",
+        "recompense": "Exposition médiatique",
+        "date_debut": "2023-07-01T00:00:00Z",
+        "date_fin": "2024-07-01T23:59:59Z",
+        "equipe": [
+            "Game designers",
+            "Scénaristes"
+        ],
+        "technologies": [
+            "Unity",
+            "Unreal Engine"
+        ],
+        "pays": [
+            "Canada",
+            "Suède"
+        ],
+        "participants_max": 6,
+        "participants_actuels": 5,
+        "etat": "En cours",
+        "tags": [
+            "Jeux vidéo",
+            "Sensibilisation environnementale"
+        ]
+    },
+    {
+        "nom": "Éco-conception de sites e-commerce",
+        "description": "Optimiser les sites de commerce électronique pour réduire leur empreinte carbone et encourager des pratiques d'achat responsables.",
+        "categorie": "Site web",
+        "objectif": "Promouvoir le commerce électronique écologique",
+        "difficulte": "Avancée",
+        "recompense": "Partenariat commercial",
+        "date_debut": "2023-08-10T00:00:00Z",
+        "date_fin": "2024-08-10T23:59:59Z",
+        "equipe": [
+            "Développeurs web",
+            "Spécialistes du commerce électronique"
+        ],
+        "technologies": [
+            "Magento",
+            "Shopify"
+        ],
+        "pays": [
+            "Royaume-Uni",
+            "Australie"
+        ],
+        "participants_max": 8,
+        "participants_actuels": 7,
+        "etat": "En cours",
+        "tags": [
+            "Commerce électronique",
+            "Eco-conception"
+        ]
+    },
+    {
+        "nom": "Sensibilisation à l'écologie à travers les jeux éducatifs",
+        "description": "Développer des jeux éducatifs pour sensibiliser les enfants aux enjeux environnementaux et encourager des comportements écologiques.",
+        "categorie": "Jeux éducatifs",
+        "objectif": "Éduquer sur l'écologie à travers le jeu",
+        "difficulte": "Débutant",
+        "recompense": "Reconnaissance pédagogique",
+        "date_debut": "2023-07-15T00:00:00Z",
+        "date_fin": "2024-07-15T23:59:59Z",
+        "equipe": [
+            "Pédagogues",
+            "Game designers"
+        ],
+        "technologies": [
+            "Scratch",
+            "Construct"
+        ],
+        "pays": [
+            "Allemagne",
+            "États-Unis"
+        ],
+        "participants_max": 10,
+        "participants_actuels": 8,
+        "etat": "En cours",
+        "tags": [
+            "Jeux éducatifs",
+            "Sensibilisation environnementale"
+        ]
+    },
+    {
+        "nom": "Développement d'applications mobiles éco-responsables",
+        "description": "Créer des applications mobiles qui encouragent des modes de vie durables et fournissent des informations sur l'écologie.",
+        "categorie": "Applications mobiles",
+        "objectif": "Promouvoir la responsabilité écologique par le biais des applications mobiles",
+        "difficulte": "Intermédiaire",
+        "recompense": "Visibilité sur les plateformes",
+        "date_debut": "2023-08-20T00:00:00Z",
+        "date_fin": "2024-08-20T23:59:59Z",
+        "equipe": [
+            "Développeurs mobiles",
+            "UX/UI designers"
+        ],
+        "technologies": [
+            "Android",
+            "iOS"
+        ],
+        "pays": [
+            "Inde",
+            "Brésil"
+        ],
+        "participants_max": 6,
+        "participants_actuels": 4,
+        "etat": "En cours",
+        "tags": [
+            "Applications mobiles",
+            "Développement durable"
+        ]
+    },
+    {
+        "nom": "Optimisation des data centers",
+        "description": "Développer des méthodes pour réduire la consommation énergétique des data centers et améliorer leur efficacité.",
+        "categorie": "Data centers",
+        "objectif": "Réduire l'empreinte carbone des data centers",
+        "difficulte": "Avancée",
+        "recompense": "Subvention de recherche",
+        "date_debut": "2023-09-05T00:00:00Z",
+        "date_fin": "2024-09-05T23:59:59Z",
+        "equipe": [
+            "Ingénieurs réseau",
+            "Experts en efficacité énergétique"
+        ],
+        "technologies": [
+            "Virtualisation",
+            "Gestion de l'énergie"
+        ],
+        "pays": [
+            "États-Unis",
+            "Chine"
+        ],
+        "participants_max": 8,
+        "participants_actuels": 6,
+        "etat": "En cours",
+        "tags": [
+            "Data centers",
+            "Efficacité énergétique"
+        ]
+    },
+    {
+        "nom": "Formation à l'éco-conception pour les développeurs",
+        "description": "Offrir des cours de formation aux développeurs sur les bonnes pratiques d'éco-conception pour les logiciels et les applications.",
+        "categorie": "Formation",
+        "objectif": "Sensibiliser les développeurs à l'éco-conception",
+        "difficulte": "Débutant",
+        "recompense": "Certificats de formation",
+        "date_debut": "2023-07-25T00:00:00Z",
+        "date_fin": "2024-07-25T23:59:59Z",
+        "equipe": [
+            "Formateurs spécialisés"
+        ],
+        "technologies": [
+            "N/A"
+        ],
+        "pays": [
+            "France",
+            "Canada"
+        ],
+        "participants_max": 20,
+        "participants_actuels": 15,
+        "etat": "En cours",
+        "tags": [
+            "Formation",
+            "Eco-conception"
+        ]
+    },
+    {
+        "nom": "Développement de solutions IoT durables",
+        "description": "Créer des solutions IoT (Internet des objets) qui contribuent à la durabilité et à la gestion des ressources.",
+        "categorie": "IoT",
+        "objectif": "Promouvoir les applications IoT écologiques",
+        "difficulte": "Avancée",
+        "recompense": "Financement de projet",
+        "date_debut": "2023-08-15T00:00:00Z",
+        "date_fin": "2024-08-15T23:59:59Z",
+        "equipe": [
+            "Ingénieurs IoT",
+            "Experts en durabilité"
+        ],
+        "technologies": [
+            "Capteurs",
+            "Réseaux sans fil"
+        ],
+        "pays": [
+            "Japon",
+            "Suède"
+        ],
+        "participants_max": 6,
+        "participants_actuels": 4,
+        "etat": "En cours",
+        "tags": [
+            "IoT",
+            "Durabilité"
+        ]
+    },
+    {
+        "nom": "Sensibilisation à l'éco-responsabilité dans les applications de streaming",
+        "description": "Développer des fonctionnalités dans les applications de streaming pour encourager des choix écologiques chez les utilisateurs.",
+        "categorie": "Applications de streaming",
+        "objectif": "Promouvoir l'éco-responsabilité dans le streaming vidéo",
+        "difficulte": "Intermédiaire",
+        "recompense": "Partenariat avec des plateformes de streaming",
+        "date_debut": "2023-09-10T00:00:00Z",
+        "date_fin": "2024-09-10T23:59:59Z",
+        "equipe": [
+            "Développeurs d'applications mobiles",
+            "Experts en UX"
+        ],
+        "technologies": [
+            "Android",
+            "iOS"
+        ],
+        "pays": [
+            "États-Unis",
+            "Royaume-Uni"
+        ],
+        "participants_max": 5,
+        "participants_actuels": 3,
+        "etat": "En cours",
+        "tags": [
+            "Streaming",
+            "Eco-responsabilité"
+        ]
+    },
+    {
+        "nom": "Recyclage des composants électroniques dans les jeux vidéo",
+        "description": "Intégrer des mécanismes de recyclage virtuel dans les jeux vidéo pour sensibiliser les joueurs à l'importance du recyclage des appareils électroniques.",
+        "categorie": "Jeux vidéo",
+        "objectif": "Promouvoir le recyclage électronique à travers les jeux",
+        "difficulte": "Intermédiaire",
+        "recompense": "Bourse de recherche",
+        "date_debut": "2023-08-01T00:00:00Z",
+        "date_fin": "2024-08-01T23:59:59Z",
+        "equipe": [
+            "Développeurs de jeux",
+            "Experts en environnement"
+        ],
+        "technologies": [
+            "Unity",
+            "Unreal Engine"
+        ],
+        "pays": [
+            "Canada",
+            "Australie"
+        ],
+        "participants_max": 6,
+        "participants_actuels": 5,
+        "etat": "En cours",
+        "tags": [
+            "Jeux vidéo",
+            "Recyclage"
+        ]
+    },
+    {
+        "nom": "Développement de simulateurs de mobilité durable",
+        "description": "Créer des simulateurs de mobilité qui encouragent l'utilisation de modes de transport durables comme le vélo et les transports en commun.",
+        "categorie": "Simulateurs",
+        "objectif": "Promouvoir la mobilité durable",
+        "difficulte": "Intermédiaire",
+        "recompense": "Subvention de recherche",
+        "date_debut": "2023-09-15T00:00:00Z",
+        "date_fin": "2024-09-15T23:59:59Z",
+        "equipe": [
+            "Développeurs de simulations",
+            "Experts en mobilité"
+        ],
+        "technologies": [
+            "Unity",
+            "Unreal Engine"
+        ],
+        "pays": [
+            "France",
+            "Allemagne"
+        ],
+        "participants_max": 8,
+        "participants_actuels": 6,
+        "etat": "En cours",
+        "tags": [
+            "Simulateurs",
+            "Mobilité durable"
+        ]
+    }
+]
