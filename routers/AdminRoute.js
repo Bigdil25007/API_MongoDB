@@ -1,6 +1,8 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const { isAdmin } = require('../middleware/checkAdmin');
+const { addDefi, deleteDefi, updateDefi } = require('../controllers/DefiController');
+
 const router = express.Router();
 
 //Connexion à l'API
@@ -11,9 +13,19 @@ router.get('/login', (req, res) => {
 });
 
 
+
 // Route pour ajouter un défi
-router.post('/defis/', isAdmin, async (req, res) => {
-    res.json({ message: 'Liste des défis' });
+router.post('/defis', isAdmin, async (req, res) => {
+    try {
+        // Récupération des données du défi
+        const defi = req.body;
+
+        const resultat = await addDefi(defi);
+        res.json(resultat);
+
+    } catch (error) {
+        res.status(500).json({ error: 'Erreur lors de l\'ajout d\'un document' });
+    }
 });
 
 // Route pour supprimer un défi

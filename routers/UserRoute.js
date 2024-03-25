@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getNbDefis } = require('../controllers/UserController');
+const { getNbDefis } = require('../controllers/DefiController');
 
 
 // Route pour récupérer un défi aléatoire ou un nombre spécifique de défis

@@ -8,8 +8,9 @@ const adminRouter = require('./routers/AdminRoute');
 const app = express();
 const port = process.env.LISTENING_PORT;
 
-//Body-parser pour récupérer les POST
-app.use(express.urlencoded({ extended: true }));
+//Body-parser pour récupérer les POST, PUT et DELETE
+app.use(express.json());
+
 app.use(userRouter);
 app.use(adminRouter);
 

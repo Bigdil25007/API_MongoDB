@@ -1,12 +1,10 @@
 const http = require('http');
 
-
 function testPostRequest() {
     const url = 'http://localhost:3000/defis';
 
     const data = {
-        // Replace the values below with the data you want to send
-        username: 'admin'
+        nom: 'Projet de jeu vidéo éco-responsable',
     };
 
     const options = {
@@ -25,17 +23,12 @@ function testPostRequest() {
         });
 
         res.on('end', () => {
-            console.log(JSON.parse(responseData)); // Affiche la réponse du serveur
+            console.log(responseData);
         });
-    });
-
-    req.on('error', (error) => {
-        console.error('Erreur lors de la requête POST:', error);
     });
 
     req.write(JSON.stringify(data));
     req.end();
 }
 
-// Appel de la fonction pour tester la requête POST
 testPostRequest();
