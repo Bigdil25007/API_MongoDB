@@ -1,17 +1,19 @@
 const http = require('http');
+const dotenv = require('dotenv');
+dotenv.config();
 
 function testPostRequest() {
-    const url = 'http://localhost:3000/defis';
+    const url = 'http://localhost:3000/defis/65f98940b8ade93b74626941';
 
     const data = {
-        nom: 'Projet de jeu vidéo éco-responsable',
+        // nom: 'Projet de jeu vidéo éco-responsable',
     };
 
     const options = {
-        method: 'POST',
+        method: 'DELETE',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQURNSU5JU1RSQVRFVVIiLCJpYXQiOjE3MTEzMDEwNzcsImV4cCI6MTcxMTM4NzQ3N30.fT336AtI9ILukuqvbplFNStiPu9JKZ18VX_x7J_AJhI'
+            'Authorization': 'Bearer ' + process.env.TEMPORARY_JWT,
         }
     };
 

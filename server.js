@@ -19,9 +19,10 @@ app.get('/', (req, res) => {
         'Voilà la liste des endpoints : \n' +
         'GET /defis/ : pour récupérer un défi aléatoire \n' +
         'GET /defis/nb : pour récupérer un nombre spécifique de défis (limité à 100) \n' +
-        'POST /defis/ : pour ajouter un défi \n' +
-        'PUT /defis/:id : pour modifier un défi \n' +
-        'DELETE /defis/:id : pour supprimer un défi \n');
+        'POST /defis/ : pour ajouter un défi (fournir JWT)\n' +
+        'PUT /defis/:id : pour modifier un défi (fournir JWT)\n' +
+        'DELETE /defis/:id : pour supprimer un défi (fournir JWT) \n' +
+        'GET /login : pour obtenir un JWT token (durée : 24h) \n');
 });
 
 //Gestion route non prévue

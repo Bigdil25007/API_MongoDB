@@ -37,7 +37,13 @@ async function addDefi(defi) {
 //Delete
 async function deleteDefi(id) {
     try {
-        return await defiModel.deleteOne({ _id: id });
+        const result = await defiModel.deleteOne({ _id: id });
+
+        if (result.deletedCount === 0) {
+            throw new Error('Aucun défi trouvé avec cet ID');
+        }
+
+        return result;
     }
     catch (error) {
         console.error('Erreur lors de la suppression du défi :', error);
@@ -46,9 +52,16 @@ async function deleteDefi(id) {
 }
 
 //Update
-async function updateDefi(id, defi) {
+async function updateDefi(id, newValue) {
     try {
-        return await defiModel.updateOne({ _id: id }, defi);
+        //on utile findOneAndUpdate pour pouvoir récupérer seuleument le document modifié
+        const updatedDefi = await defiModel.findOneAndUpdate({ _id: id }, newValue, { new: true });
+
+        if (!updatedDefi) {
+            throw new Error('Aucun défi trouvé avec cet ID');
+        }
+
+        return updatedDefi;
     }
     catch (error) {
         console.error('Erreur lors de la modification du défi :', error);

@@ -30,7 +30,14 @@ router.post('/defis', isAdmin, async (req, res) => {
 
 // Route pour supprimer un défi
 router.delete('/defis/:id', isAdmin, async (req, res) => {
-    res.json({ message: 'Défi supprimé' });
+    try {
+        // Récupération de l'id du défi
+        const resultat = await deleteDefi(req.params.id);
+        res.json(resultat);
+
+    } catch (error) {
+        res.status(500).json({ error: 'Erreur lors de la suppression d\'un document' });
+    }
 });
 
 // Route pour modifier un défi
