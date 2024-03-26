@@ -16,7 +16,7 @@ Et supprimer la ligne AUthorization dans headers pour les routes qui ne nécessi
 */
 
 function testRequest() {
-    const url = 'http://localhost:3000/defis/66024ff027b3edb1aa2c17b1';
+    const url = 'http://localhost' + process.env.LISTENING_PORT + '/defis/66024ff027b3edb1aa2c17b1';
 
     const data = {
         participants_max: 5,
